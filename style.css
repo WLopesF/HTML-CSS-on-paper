@@ -1,5 +1,47 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+header img {
+    width: 50%;
+    margin: 4em;
+    border-radius: 10em;
+}
 
-};
+.coffeewithbooks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+}
+
+.coffeewithbooks img {
+    width: 50%;
+    border-radius: 10em;
+    -webkit-box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.8);
+}
+
+.icones {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2em;
+}
+
+.circulo {
+    width: 20vw;
+    height: 40vh;
+    background-image: url(nature1.jpg);
+    background-size: cover;
+    border-radius: 40%;
+}
